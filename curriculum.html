@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" &amp;gt;>
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Css personalizado -->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--logo pestaña-->
+    <link rel="icon" type="imagen/x-icon" href="media/logo.png">
+
+    <!--titulo-->
+    <title>Curriculum Vitae</title>
+
+</head>
+
+<body class="bodyCv">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 col-md-12 col-lg-12 col-xl-12 text-center">
+        <nav class="navbar navbar-expand-lg " id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand">               
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="media/Curriculum Nicolas Gonzalez.pdf" download>Descargar CV</a>
+                        </li>                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Secciones
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li ><a class="dropdown-item" href="#competencias">Competencias</a></li>
+                                <li><a class="dropdown-item" href="#idiomas">Idiomas</a></li>
+                                <li><a class="dropdown-item" href="#experiencia">Experiencia Laboral</a></li>
+                                <li><a class="dropdown-item" href="#cursos">Cursos</a></li>
+                                <li><a class="dropdown-item" href="#vol">Voluntariado</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    </div>
+
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div id="cabezal" class="col-sm-2 col-md-12 col-lg-12 col-xl-12 text-center">
+                    <h1 id="textoCabezal">NICOLAS GONZALEZ</h1>
+                    <h3 id="textoCabezal">Desarrollador BackEnd | FrontEnd</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-md-5 col-lg-5 col-xl-5">
+                    <div id="columnaIzquierdaSuperior">
+                        <img id="foto" src="./media/foto cv.png" alt="foto de perfil" width="250px" height="250px">
+                        <h4 id="tituloColumnaIzquierda"> SOBRE MI</h4>
+                        <p id="textColumnaIzquierda">
+                            Estudiante de Programación desde el 2022. <br>
+                            Me considero una persona emprendedora con disposición <br>
+                            a aprender. Buscando mi primera experiencia laboral en el <br>
+                            sector IT. <br>
+                            Me interesa desarrollarme como programador BackEnd, <br>
+                            poder aportar las habilidades que adquirí, crecer <br>
+                            y tener la posibilidad de obtener nuevos conocimientos. </p>
+                        <h4 id="tituloColumnaIzquierda">Datos de contacto</h4>
+                        <p id="textColumnaIzquierda">
+                            Telefono: (+011) 51646458 <br>
+                            E-Mail: nicolasjgonzalez389@gmail.com <br>
+                            Sitio: https://nicolasgonzalez2764.000webhostapp.com/ <br>
+                            Direccion: Wagner 947 - Hurlingham </p>
+                    </div>
+
+                    <div id="columnaIzquierdaInferior">
+
+                        <div id="contenedorColumnaIzquierda" class="container">
+                            <div class="container" id="competencias">
+                                <div class="row justify-content-between">
+                                    <div class="col-4">
+                                        <h3 id="titulosColumnaDerecha"> COMPETENCIAS </h3>
+                                    </div>
+                                    <div class="col-2 text-center" style="padding-top: 15px;">
+                                        <a type="button"  id="botonMostrarCompetencias">
+                                            <img class="img-responsive" src="media/flecha abajo.png"
+                                                alt="foto flecha abajo" height="20px" width="20px">
+                                        </a>
+                                        <a type="button" id="botonOcultarCompetencias" style="display: none;">
+                                            <img class="img-responsive" src="media/flecha arriba.png"
+                                                alt="foto flecha arriba" height="20px" width="20px">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="textoCompetencias" style="display: none;">
+                            <li class="textoColumnaDerecha"> JAVA.</li>
+                            <li class="textoColumnaDerecha"> MYSQL.</li>
+                            <li class="textoColumnaDerecha"> HTML.</li>
+                            <li class="textoColumnaDerecha"> CSS, Bootstrap.</li>
+                            <li class="textoColumnaDerecha"> JavaScript.</li>
+                            <li class="textoColumnaDerecha"> JAVA.</li>
+                            <li class="textoColumnaDerecha"> GIB.</li>
+                            <li class="textoColumnaDerecha"> Conocimiento de Hardware y Software. </li>
+                            <li class="textoColumnaDerecha"> Desarme y reparación de PCs y notebooks. <a
+                                    href="media/UTN INSPT CFC - Certificado de Aprobación rev444.pdf"> Certificado.</a>
+                            </li>
+                            <li class="textoColumnaDerecha">Photoshop. </li>
+                        </div>
+
+                        <div id="contenedorColumnaIzquierda" class="container">
+                            <div class="container" id="idiomas" >
+                                <div class="row justify-content-between">
+                                    <div class="col-4">
+                                        <h3 id="titulosColumnaDerecha"> IDIOMAS </h3>
+                                    </div>
+                                    <div class="col-2 text-center" style="padding-top: 15px;">
+                                        <a type="button" id="botonMostrarIdiomas" >
+
+                                            <img class="img-responsive" src="media/flecha abajo.png"
+                                                alt="foto flecha arriba" height="20px" width="20px">
+                                        </a>
+
+                                        <a type="button"  id="botonOcultarIdiomas"  style="display: none;">
+                                            <img class="img-responsive" src="media/flecha arriba.png"
+                                                alt="foto flecha abajo" height="20px" width="20px">
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="textoIdiomas" style="display: none;">
+                           <li class="textoColumnaDerecha">Ingles intermedio.</li>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-2 col-md-7 col-lg-5 col-xl-7">
+                    <div id="contenedorColumnaDerecha" class="container">
+                        <div class="container" id="experiencia">
+                            <div class="row justify-content-between">
+                                <div class="col-8">
+                                    <h3 id="titulosColumnaDerecha"> EXPERIENCIA LABORAL </h3>
+                                </div>
+                                <div class="col-2 text-center" style="padding-top: 15px;">
+                                    <a type="button" id="botonMostrarExp">
+                                        <img class="img-responsive" src="media/flecha abajo.png"
+                                            alt="foto flecha abajo" height="20px" width="20px">
+                                    </a>
+                                    <a type="button"  id="botonOcultarExp" style="display: none;">
+                                        <img class="img-responsive" src="media/flecha arriba.png" alt="foto flecha arriba"
+                                            height="20px" width="20px">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="textoExp" style="display: none;">
+                        <h4 id="subtituloColumnaDerecha"> Servicio Tecnico</h4>
+                        <p class="textoColumnaDerecha">5/11/2021 - Al presente <br>
+                            Trabajo de forma autónoma reparando Pcs y notebooks de
+                            clientes que me contactan por las redes sociales o por
+                            recomendación, de forma física o remota.
+                        </p>
+                        <h4 id="subtituloColumnaDerecha"> Laboratorios Certificados S.A.C.e.I</h4>
+                        <p class="textoColumnaDerecha">
+                            15/03/2013 - 01/12/2019 <br>
+                            Comencé realizando cobranzas y tareas administrativas. Al tercer
+                            año me derivaron al área de facturación, donde mi función fue
+                            facturar y preparar la documentación necesaria para el despacho
+                            de mercadería. <br>
+                            Referencia: Julio Goncalves (Jefe de ventas). <br>
+                            Contacto: <br>
+                            Mail: juliogoncalves@lab-certificados.com.ar <br>
+                            Telefono: (011) 4581-4981
+                        </p>
+                    </div>
+
+                    <div id="contenedorColumnaDerecha" class="container">
+                        <div class="row justify-content-between">
+                            <div class="col-4" id="cursos">
+                                <h3 id="titulosColumnaDerecha"> CURSOS </h3>
+                            </div>
+                            <div class="col-2 text-center" style="padding-top: 15px;">
+                                <a type="button" id="botonMostrarCursos">
+                                    <img class="img-responsive" src="media/flecha abajo.png" alt="foto flecha abajo"
+                                        height="20px" width="20px">
+                                </a>
+                                <a type="button" id="botonOcultarCursos" style="display: none;">
+                                    <img class="img-responsive" src="media/flecha arriba.png" alt="foto flecha arriba"
+                                        height="20px" width="20px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="textoCursos" style="display: none;">
+                        <h4 id="subtituloColumnaDerecha"> Trayecto Programador</h4>
+                        <li class="textoColumnaDerecha"> Modulo Técnicas de Programación 120 hs. </li>
+                        <li class="textoColumnaDerecha"> Modulo Relaciones Laborales y Orientación Profesional 24 hs.
+                        </li>
+                        <li class="textoColumnaDerecha"> Modulo Programación Orientada a Objetos 150hs (UML, JAVA).
+                        </li>
+                        <li class="textoColumnaDerecha"> Modulo Base de Datos 70 hs (MYSQL). </li>
+                        <p class="textoColumnaDerecha"> Duración total: 364 horas. <br>
+                            Finalizado en CFP 17 - Convenio con Fundación UOCRA <br>
+                            Certificado oficial, otorgado por el Ministerio de Educación de
+                            GCBA con validez nacional.
+                        </p>
+
+                        <h4 id="subtituloColumnaDerecha"> Desarrollo FrontEnd</h4>
+                        <li class="textoColumnaDerecha"> Conceptos de HTML: Estructura, elementos multimedia. </li>
+                        <li class="textoColumnaDerecha"> Capa de presentación: CSS, responsive web desing, bootstrap.
+                        </li>
+                        <li class="textoColumnaDerecha"> Fundamentos de JavaScript: Integración de JS a HTML, Eventos y
+                            funciones. </li>
+                        <li class="textoColumnaDerecha"> Git: Comandos basicos, crear y subir un repositorio a Github.
+                        </li>
+                        <p class="textoColumnaDerecha"> En curso - Argentina Programa 4.0
+
+                            <h4 id="subtituloColumnaDerecha"> Curso de Reparación de PC y Notebooks</h4>
+                            <li class="textoColumnaDerecha"> Armado de PC e instalación de Sistemas Operativos. </li>
+                            <li class="textoColumnaDerecha"> Actualizaciones, Mantenimiento preventivo, Sistemas de seguridad.</li>
+                            <li class="textoColumnaDerecha"> Analisis, deteccion y resolución de fallas. </li>
+                            <li class="textoColumnaDerecha"> Virus y Malwares: Deteccion de amenazas y eliminación.
+                            </li>
+                            <p class="textoColumnaDerecha"> Finalizado en Centro de Formación continua - UTN-INSPT
+                            </p>
+                        </p>
+                    </div>
+
+
+                    <div id="contenedorColumnaDerecha" class="container">
+                        <div class="row justify-content-between" id="divVoluntariado">
+                            <div class="col-4" id="vol">
+                                <h3 id="titulosColumnaDerecha"> VOLUNTARIADO </h3>
+                            </div>
+                            <div class="col-2 text-center" style="padding-top: 15px;">
+                                <a type="button" id="botonMostrarVol">
+                                    <img class="img-responsive" src="media/flecha abajo.png" alt="foto flecha abajo"
+                                        height="20px" width="20px">
+                                </a>
+                                <a type="button"  id="botonOcultarVol" style="display: none;">
+                                    <img class="img-responsive" src="media/flecha arriba.png" alt="foto flecha arriba"
+                                        height="20px" width="20px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="textoVol" style="display: none;">
+                        <h4 id="subtituloColumnaDerecha"> Ayudante de comedor comunitario | Calles en Lucha |
+                            Noviembre, 2019 - Abril,2021
+                        </h4>
+                        <p class="textoColumnaDerecha">
+                            Calles en lucha era un comedor comunitario ubicado en la localidad de Ramos Mejía, donde
+                            todos los miércoles y viernes se preparaba la cena para la gente que se acercaba a la plaza
+                            Sarmiento
+                            de dicha localidad. <br>
+                            Mis responsabilidades, junto a otros compañeros, eran coordinar la cocina, la elaboración de
+                            la
+                            comida,
+                            planificar actividades post-cena y brindar ayuda y contención a las personas que se
+                            acercaban al
+                            comedor
+                            en búsqueda de algún tipo ayuda.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="margin-top: 150px;" >
+
+            <a href="" type="button">
+
+                <img src="media/flecha arriba.png" alt="boton volver arriba" height="30px" width="30px"
+                    class="img-responsive">
+            </a>
+            Volver arriba
+        </div>
+    </div>
+    <!-- bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
