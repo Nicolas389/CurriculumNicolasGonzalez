@@ -7,12 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--logo pestaña-->
-    <link rel="icon" type="imagen/x-icon" href="media/logo.png">
-
-    <!-- bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <link rel="icon" type="imagen/x-icon" href="media/logo.png">   
+    
     <!-- css personalizado-->
     <link rel="stylesheet" type="text/css" href="estilo.css">
 
@@ -34,30 +30,34 @@
 
 </head>
 
-<body class="bodyIndex">
-    <nav id="cabezalIndex"> <!-- cabezal-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
-                    <img id="foto" src="media/logo.png" alt="imagen del logo gato negro">
-                </div>
-                <div class="col-md-2 col-lg-4 col-xl-6"></div>
-                <div id="botonesCabezal" class="col-sm-12 col-md-6 col-lg-6 col-xl-4 text-center">
-                    <a class="btn btn-primary btn-lg" href="curriculum.html" role="button"> Curriculum </a>
-                    <a class="btn btn-primary btn-lg" href="#proyectos" role="button"> Proyectos </a>
-                    <a class="btn btn-primary btn-lg" href="#redes" role="button"> Redes </a>
-                </div>
+<body>
+<div class="main">
+    <ul class="menu">
+        <div class="row">
+            <div class="column1">
+                <h1>LOGO</h1>                
+            </div>
+            <div class="column2">
+                <li><a href="">Curriculum</a></li>
+                <li><a href="">Proyectos</a></li>
+                <li><a href="">Redes</a></li>
+            </div>
+        </div>        
+    </ul>
+    
+    <div class="presentacion">
+        <div class="row">
+            <div class="column">
+                <h1 class="tituloPrimarioIndex">Nicolas Gonzalez</h1>
+                <h5 class="subtituloIndex"> Desarrollador de Software</h5>
             </div>
         </div>
-    </nav>
+    </div>
 
-    <section class="container-fluid" id="contenedorSuperior">
-        <div class="text-center">
-            <h1 class="tituloPrimarioIndex">Desarrollador Full Stack</h1>
-            <h5 class="subtituloIndex"> Desarrollando un nuevo mundo</h5>
-            <img id="foto" src="media/imagendev.png" alt="imagen pc con codigo">
-        </div>
-    </section>
+</div>
+    
+    
+    
 
 
     <section class="container-fluid" id="contenedorPresentacion">
@@ -99,6 +99,19 @@
                                 class="btn btn-primary">Repositorio</a>
                         </div>
                     </div>
+                    
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-4 col-xl-4" id="cuerpoZonaInferior">
+                    <div class="card" id="cardProyectos" style="width: 18rem;">
+                        <img class="card-img-top" id="foto" src="media/agenda.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Agenda con CRUD hecho en JAVA</h5>
+                            <p class="card-text">Agenda simple con CRUD hecha en JAVA, desarrollado en Netbeans 11, con base de datos hecha en Workbench. </p>
+                            <a href="https://github.com/Nicolas389/CRUD-en-JAVA"
+                                class="btn btn-primary">Repositorio</a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
 
